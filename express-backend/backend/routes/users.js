@@ -1,36 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-//class objects
-//let BaseballEvent = require('../objects/BaseballEvent');
+var BaseballEvent = require('../objects/BaseballEvent');
+var Inning = require('../objects/Inning');
 
-class Inning{
 
-  constructor(){
 
-      this.homeTeamScore = 0;
-      this.awayTeamScore = 0;
-  }
-};
-
-var inning = new Inning();
-
-class BaseballEvent{
-
-  constructor(){
-      
-      this.awayTeamLine = '';
-      this.homeTeamLine = '';
-      this.gameTotal = 0;
-
-      this.innings = new Array(9).fill().map((e, i) => {
-
-          return {
-              ...inning,                
-          }
-      });
-  }
-};
 
 
 
@@ -110,6 +85,7 @@ router.get('/baseballScore', function(req, res, next) {
 
   //dummy data
   var currentGame = new BaseballEvent();
+  var newInning = new Inning();
 
   currentGame.awayTeamLine = '+110';
   currentGame.homeTeamLine = '-120';
@@ -119,8 +95,11 @@ router.get('/baseballScore', function(req, res, next) {
     currentGame.innings[i].awayTeamScore = 1;
     currentGame.innings[i].homeTeamScore = 1;
   }
+  
+  newInning.awayTeamScore = 5;
+  newInning.homeTeamScore = 0;
 
-
+  currentGame.innings.push(newInning);
 
   res.json(currentGame);
   

@@ -1,8 +1,8 @@
-
+"use strict";
 //includes
-//import Inning from '../objects/Inning.js';
-let Inning = require('../objects/Inning');
+var Inning = require('../objects/Inning');
 
+//instantiate Inning object
 var inning = new Inning();
 
 
@@ -14,6 +14,7 @@ class BaseballEvent{
         this.homeTeamLine = '';
         this.gameTotal = 0;
 
+        //add an array of 9 innings
         this.innings = new Array(9).fill().map((e, i) => {
 
             return {
@@ -23,4 +24,5 @@ class BaseballEvent{
     }
 };
 
-module.exports.BaseballEvent = BaseballEvent;  
+//export BaseballEvent class
+module.exports = BaseballEvent;
