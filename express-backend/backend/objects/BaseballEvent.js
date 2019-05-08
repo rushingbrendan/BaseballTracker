@@ -1,4 +1,5 @@
-"use strict";
+
+
 //includes
 var Inning = require('../objects/Inning');
 
