@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{9E6BC77A-969B-445F-8785-30666F7EF838}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClientApp/src/components/Home.js">
+    <Files>
+      <File FileName="Controllers/SampleDataController.cs" Line="9" Column="22" />
+      <File FileName="ClientApp/src/components/FetchData.js" Line="48" Column="45" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="ClientApp/src/store/configureStore.js" Line="1" Column="1" />
+      <File FileName="ClientApp/src/store/WeatherForecasts.js" Line="3" Column="58" />
+      <File FileName="ClientApp/src/index.js" Line="1" Column="1" />
+      <File FileName="ClientApp/src/components/Home.js" Line="22" Column="1" />
+      <File FileName="ClientApp/src/components/Counter.js" Line="1" Column="1" />
+      <File FileName="ClientApp/src/components/BaseballScoreEvent.js" Line="1" Column="1" />
+      <File FileName="ClientApp/src/components/BaseballScoreBoard.js" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="asp-redux" expanded="True">
+            <Node name="asp-redux" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="public" expanded="True" />
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True">
+                    <Node name="Home.js" selected="True" />
+                  </Node>
+                  <Node name="store" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.asp-redux PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
